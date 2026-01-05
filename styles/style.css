@@ -324,10 +324,74 @@
 .our-portfolio .imgs .imgs1, .imgs2{
   display: flex;
 }
- .our-portfolio .imgs img{
+.our-portfolio .imgs img{
   margin: 0px 25px 25px 0px;
- }
+}
 
+/* Newsletter Styles */
+.newsletter{
+  margin-top: 120px;
+  height: 616px;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.newsletter h2{
+  width: 512px;
+  height: 60px;
+  color: rgba(7, 2, 17, 1);
+  font-family: Merriweather;
+  font-style: Black;
+  font-size: 48px;
+  font-weight: 900;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.newsletter p{
+  width: 896px;
+  height: 64px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-style: Regular;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.newsletter form{
+  display: flex;
+  justify-content: center;
+}
+.newsletter form input[type="email"]{
+  width: 428px;
+  height: 72px;
+  padding: 25px;
+  color: rgba(7, 2, 17, 0.3);
+  font-family: Inter;
+  font-style: Regular;
+  font-size: 18px;
+  font-weight: 400;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 50px 0px 0px 50px;
+  background: rgba(255, 255, 255, 1);
+}
+.newsletter form input[type="submit"]{
+  width: 220px;
+  height: 72px;
+  border: 0;
+  border-radius: 0px 50px 50px 0px;
+  color: #FFFFFF;
+  background-color: #FF0000;
+  font-family: Inter;
+  font-style: Regular;
+  font-size: 20px;
+  font-weight: 400;
+}
 
 
 

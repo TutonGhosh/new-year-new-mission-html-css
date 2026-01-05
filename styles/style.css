@@ -393,6 +393,79 @@
   font-weight: 400;
 }
 
-
-
-
+/* Footer Styles */
+footer{
+  margin-top: 120px;
+  height: 600px;
+  background-color: black;
+  color: white;
+}
+footer .first{
+  padding-top: 120px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .first .p2 div{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  height: 40px;
+  color: rgba(255, 255, 255, 1);
+  font-family: Inter;
+  font-style: Medium;
+  font-size: 24px;
+  font-weight: 500;
+}
+footer .first .adrs{
+  width: 375px;
+  height: 80px;
+  color: rgba(255, 255, 255, 1);
+  font-family: Inter;
+  font-style: Medium;
+  font-size: 24px;
+  font-weight: 500;
+}
+footer .second{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 50px;
+}
+footer .third{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .third p{
+  width: 295px;
+  height: 29px;
+  color: rgba(255, 255, 255, 1);
+  font-family: Inter;
+  font-style: Medium;
+  font-size: 24px;
+  font-weight: 500;
+}
+footer .third button{
+  width: 167px;
+  height: 56px;
+  border: 0;
+  background-color: black;
+  color: rgba(255, 255, 255, 1);
+  font-family: Inter;
+  font-style: Medium;
+  font-size: 24px;
+  font-weight: 500;
+}
+footer .third button:hover{
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(255, 0, 0, 1);
+  border-radius: 8px;
+}
+footer hr{
+  margin-top: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}

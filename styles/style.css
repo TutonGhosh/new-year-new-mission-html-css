@@ -133,3 +133,25 @@
   font-weight: 400;
   margin-bottom: 30px;
 }
+
+/* Address Styles */
+.address{
+  height: 482px;
+  border-radius: 16px;
+  background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+}
+.address span{
+  color: red;
+}
+.address button{
+  margin-top: 50px;
+}
+.address button:hover{
+  background: none;
+  color: red;
+  border: 1px solid red;
+}
